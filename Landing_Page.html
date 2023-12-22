@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #faa537;
+            color: #fff;
+            padding: 0.7em;
+            text-align: center;
+        }
+
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #898989;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #fff;
+            background-color: #4caf50;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 30px;
+        }
+
+        .head1{
+            color: #faa537;
+            font-size: 40px;
+
+        }
+
+        .logo {
+            width: 150px;
+            height: 75px;
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="amazon_logo.png" alt="ShopSmart Logo" class="logo">
+        <h1 class = "head1" >Amazon Shopping site</h1>
+        <p>Your one-stop shop for all your needs!</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Products</a> |
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Welcome to Amazon!</h2>
+        <p>Discover a wide range of products at amazing prices. From electronics to fashion, we have it all.</p>
+        <p>Start shopping now and enjoy great deals and fast delivery.</p>
+
+        <div class="product-grid">
+            <div class="product">
+                <img src="fan.png" alt="Product 1" height: 320px;
+                width:300px;>
+                <h3> Fan</h3>
+                <p>1999.00 Rs</p>
+                <a href="#" class="cta-button">Add to Cart</a>
+            </div>
+
+            <div class="product">
+                <img src="laptop.jpeg" alt="Product 2" height: 320px;
+                width:300px;>
+                <h3>laptop </h3>
+                <p>59999.00 Rs</p>
+                <a href="#" class="cta-button">Add to Cart</a>
+            </div>
+
+            <div class="product">
+                <img src="tshirt.jpg" alt="Product 3" height: 320px;
+                width:300px;>
+                <h3>T-shirt</h3>
+                <p>399.00 Rs</p>
+                <a href="#" class="cta-button">Add to Cart</a>
+            </div>
+
+            <div class="product">
+                <img src="buds.jpg" alt="Product 4" height: 320px;
+                width:300px;>
+                <h3>Earbuds </h3>
+                <p>2999.00 Rs</p>
+                <a href="#" class="cta-button">Add to Cart</a>
+            </div>
+            
+            <div class="product">
+                <img src="bag.jpg" alt="Product 4" height: 320px;
+                width:300px;>
+                <h3> Bag</h3>
+                <p>599.00 Rs</p>
+                <a href="#" class="cta-button">Add to Cart</a>
+            </div>
+            
+            <div class="product">
+                <img src="bottle.jpg" alt="Product 4" height: 320px;
+                width:300px;>
+                <h3>Water Bottle</h3>
+                <p>249.00 Rs</p>
+                <a href="#" class="cta-button">Add to Cart</a>
+            </div>
+            
+            <div class="product">
+                <img src="watch.jpg" alt="Product 4" height: 320px;
+                width:300px;>
+                <h3>Watch</h3>
+                <p>2999.00 Rs</p>
+                <a href="#" class="cta-button">Add to Cart</a>
+            </div>
+            
+            <div class="product">
+                <img src="hoodie.jpg" alt="Product 4" height: 320px;
+                width:300px;>
+                <h3>Hoodie</h3>
+                <p>599.00 Rs</p>
+                <a href="#" class="cta-button">Add to Cart</a>
+            </div>
+            
+            <div class="product">
+                <img src="mouse.jpg" alt="Product 4" height: 320px;
+                width:300px;>
+                <h3>Mouse</h3>
+                <p>249.00 Rs</p>
+                <a href="#" class="cta-button">Add to Cart</a>
+            </div>
+
+            <!-- Add more products as needed -->
+
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Amazon. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
